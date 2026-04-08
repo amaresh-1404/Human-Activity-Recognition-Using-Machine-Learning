@@ -44,13 +44,13 @@ The project is implemented in MATLAB and follows a complete pipeline including d
 - Confusion matrix shows strong classification performance
 
 ### Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](confusion%20matrix.png)
 
 ### Feature Importance
 ![Feature Importance](feature%20importance.png)
 
 ### Model Comparison
-![Model Comparison](modelcomparison.png)
+![Model Comparison](modelcomparision.png)
 
 ## Input Data
 The project uses a Human Activity Recognition dataset based on smartphone sensor signals.
