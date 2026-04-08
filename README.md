@@ -36,6 +36,24 @@ The project is implemented in MATLAB and follows a complete pipeline including d
 - featurecross.m → Performs feature importance and cross-validation
 - precisin.m → Calculates precision, recall, and F1 score
 
+
+## Usage (Manual Execution)
+
+In addition to running the main script, individual steps can be executed manually from the MATLAB Command Window:
+
+```matlab
+% Load dataset
+[X_train, y_train, X_test, y_test] = loadData;
+
+% Train models
+models = trainModel(X_train, y_train);
+
+% Evaluate models
+results = evaluateModel(models, X_test, y_test);
+
+% Compare models
+compareModels(results);
+
 ## Results
 
 - Overall Accuracy: ~96%
@@ -105,6 +123,11 @@ Cross-validation is used to evaluate the reliability of the model. The dataset i
 - Accuracy and performance metrics  
 - Precision, recall, and F1 score  
 - Cross-validation results confirm model stability  
+
+A simple test can be performed by running the main script:
+
+```matlab
+main
 
 ## Notes
 - The project is designed for one-click execution using main
