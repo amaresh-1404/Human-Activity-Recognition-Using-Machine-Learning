@@ -53,9 +53,22 @@ The project is implemented in MATLAB and follows a complete pipeline including d
 ![Model Comparison](modelcomparision.png)
 
 ## Input Data
-The project uses a Human Activity Recognition dataset based on smartphone sensor signals.
 
-The dataset is not included in this repository due to size constraints. It should be downloaded separately and placed in the appropriate directory as specified in the code (loadData.m).
+This project uses the Human Activity Recognition (HAR) dataset based on smartphone sensor data.
+
+Due to the large size of the dataset, it is not included in this repository.
+
+🔗 Dataset Download:
+https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip
+
+### Instructions:
+1. Download the dataset from the above link
+2. Extract the ZIP file
+3. Place the extracted folder in the project directory (e.g., inside data/)
+4. Ensure the folder name is UCI HAR Dataset
+5. Update the path in loadData.m if required
+
+The project expects the dataset structure as provided in the original UCI HAR dataset.
 
 
 ## Models Used
