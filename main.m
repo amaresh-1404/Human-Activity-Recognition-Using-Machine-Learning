@@ -17,6 +17,14 @@ disp('--- GETTING PREDICTIONS ---');
 disp('--- PERFORMANCE METRICS ---');
 confMat = confusionmat(y_test, y_pred);
 
+% -------- CONFUSION MATRIX VISUALIZATION --------
+figure;
+confusionchart(y_test, y_pred);
+title('Confusion Matrix');
+
+% Save for README
+saveas(gcf, 'confusion_matrix.png');
+
 precision = diag(confMat) ./ sum(confMat,2);
 recall = diag(confMat) ./ sum(confMat,1)';
 f1 = 2 * (precision .* recall) ./ (precision + recall);
