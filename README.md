@@ -26,6 +26,16 @@ The project is implemented in MATLAB and follows a complete pipeline including d
    - Evaluate performance  
    - Display results  
 
+   ## File Structure
+   
+- main.m → Entry point of the project (runs full pipeline)
+- loadData.m → Loads training and testing dataset
+- trainModel.m → Trains the machine learning model
+- evaluateModel.m → Evaluates model performance
+- compareModels.m → Compares different ML models
+- featurecross.m → Performs feature importance and cross-validation
+- precisin.m → Calculates precision, recall, and F1 score
+
 ## Results
 - Accuracy: ~96%  
 - Cross-validation Accuracy: ~98%  
