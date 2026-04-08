@@ -79,6 +79,17 @@ The project expects the dataset structure as provided in the original UCI HAR da
 
 Model comparison is performed based on accuracy.
 
+## Machine Learning Models
+
+The models are trained during runtime using the training dataset.
+
+No pre-trained model files are included in this repository.
+
+The main script (main.m) handles:
+- Data loading
+- Model training
+- Evaluation
+
 ## Feature Importance
 Feature importance analysis is performed to identify the most significant features contributing to activity classification. This helps in understanding the importance of different sensor inputs.
 
