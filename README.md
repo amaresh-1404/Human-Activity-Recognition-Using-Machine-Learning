@@ -53,6 +53,7 @@ results = evaluateModel(models, X_test, y_test);
 
 % Compare models
 compareModels(results);
+```
 
 ## Results
 
@@ -128,7 +129,7 @@ A simple test can be performed by running the main script:
 
 ```matlab
 main
-
+```
 ## Notes
 - The project is designed for one-click execution using main
 - Code is structured and easy to understand
