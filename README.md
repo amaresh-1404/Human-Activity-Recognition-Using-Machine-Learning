@@ -62,6 +62,12 @@ compareModels(results);
 - High Precision, Recall, and F1-score across all classes
 - Confusion matrix shows strong classification performance
 
+## Confidence Scores
+
+The predicted confidence values are observed to be in the range of 0.3 to 0.4. This is because the model outputs class scores for multiple activities, and similar activities (such as sitting vs standing or walking vs upstairs) have overlapping feature patterns. As a result, the probabilities are distributed across classes instead of being highly concentrated on a single class.
+
+Despite lower confidence values, the overall classification accuracy remains high (~96%), indicating correct predictions.
+
 ### Confusion Matrix
 ![Confusion Matrix](confusion%20matrix.png)
 
