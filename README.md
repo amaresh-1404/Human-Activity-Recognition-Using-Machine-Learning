@@ -37,10 +37,20 @@ The project is implemented in MATLAB and follows a complete pipeline including d
 - precisin.m → Calculates precision, recall, and F1 score
 
 ## Results
-- Accuracy: ~96%  
-- Cross-validation Accuracy: ~98%  
-- Precision, Recall, and F1 Score: high across all classes  
-- Confusion matrix shows strong classification performance  
+
+- Overall Accuracy: ~96%
+- Cross-validation Accuracy: ~98%
+- High Precision, Recall, and F1-score across all classes
+- Confusion matrix shows strong classification performance
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+### Feature Importance
+![Feature Importance](feature%20importance.png)
+
+### Model Comparison
+![Model Comparison](modelcomparison.png)
 
 ## Input Data
 The project uses a Human Activity Recognition dataset based on smartphone sensor signals.
